@@ -1,0 +1,15 @@
+# Alpha Potato：Cloudflare Workers 靜態檔案（https://potatopai.com/AlphaPotato/）
+# 這個檔案只在 main（release 沒有），部署 release 時要保留。
+name = "alphapotato"
+compatibility_date = "2026-11-01"
+workers_dev = true
+preview_urls = false
+routes = [
+  { pattern = "potatopai.com/AlphaPotato*", zone_name = "potatopai.com" }
+]
+
+[build]
+command = 'rm -rf dist && mkdir -p dist/AlphaPotato && find . -mindepth 1 -maxdepth 1 ! -name dist ! -name .git ! -name wrangler.toml ! -name .assetsignore ! -name node_modules -exec cp -r -t dist/AlphaPotato {} +'
+
+[assets]
+directory = "dist"
