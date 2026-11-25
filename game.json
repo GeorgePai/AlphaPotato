@@ -3,15 +3,13 @@
  "name": "Alpha Potato",
  "tag": "推塔 × 英雄操作",
  "desc": "波塔軍團對上野獸大軍：操作英雄、推倒敵塔、守住聖樹。",
- "version": "V4.5",
+ "version": "V4.5.1",
  "date": "11/25",
- "built": "2026-11-25T14:14:56+0800",
+ "built": "2026-11-25T14:34:38+0800",
  "path": "/AlphaPotato/",
  "icon": "icon-512.png",
  "online": "https://lol-rank.leafoflegends.workers.dev/online",
  "notes": [
-  "角色改成高解析：輪廓更圓滑、黑框更粗，走路和呼吸不再閃爍",
-  "頭上的血條、魔力條更細緻好讀",
-  "手機跑不動時會自動降一點細緻度，維持順暢"
+  "排行榜加強防作弊：不合理的成績和大獎公告會被擋下"
  ]
 }
